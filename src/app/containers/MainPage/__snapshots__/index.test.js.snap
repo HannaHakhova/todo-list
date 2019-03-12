@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage matches expected snapshot 1`] = `
+<Grid
+  columns="equal"
+>
+  <GridColumn
+    width={4}
+  />
+  <GridColumn
+    width={6}
+  >
+    <TodosPart
+      addTodoTag={[Function]}
+      clearCompleted={[Function]}
+      createTodo={[Function]}
+      deleteTodo={[Function]}
+      deleteTodoTag={[Function]}
+      tags={Array []}
+      todos={Array []}
+      todosTags={Array []}
+      toggleCompleted={[Function]}
+    />
+  </GridColumn>
+  <GridColumn
+    width={3}
+  >
+    <TagsPart
+      createTag={[Function]}
+      deleteTag={[Function]}
+      tags={Array []}
+      todosTags={Array []}
+    />
+  </GridColumn>
+</Grid>
+`;

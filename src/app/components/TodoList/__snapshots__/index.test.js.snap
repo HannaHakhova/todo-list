@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList component should match expected snapshot 1`] = `
+<div>
+  <div>
+    <List
+      relaxed={true}
+    >
+      <ListItem
+        key="1"
+      >
+        <Todo
+          handleComplete={[Function]}
+          handleDelete={[Function]}
+          sortByDateAndCompleted={[Function]}
+          todo={
+            Object {
+              "completed": true,
+              "createdDate": 2017-01-31T22:00:00.000Z,
+              "id": "1",
+              "title": "Todo1",
+            }
+          }
+        />
+      </ListItem>
+      <ListItem
+        key="2"
+      >
+        <Todo
+          handleComplete={[Function]}
+          handleDelete={[Function]}
+          sortByDateAndCompleted={[Function]}
+          todo={
+            Object {
+              "completed": true,
+              "createdDate": 2017-01-31T22:00:00.000Z,
+              "id": "2",
+              "title": "Todo2",
+            }
+          }
+        />
+      </ListItem>
+      <ListItem
+        key="3"
+      >
+        <Todo
+          handleComplete={[Function]}
+          handleDelete={[Function]}
+          sortByDateAndCompleted={[Function]}
+          todo={
+            Object {
+              "completed": true,
+              "createdDate": 2017-01-31T22:00:00.000Z,
+              "id": "3",
+              "title": "Todo3",
+            }
+          }
+        />
+      </ListItem>
+    </List>
+  </div>
+</div>
+`;

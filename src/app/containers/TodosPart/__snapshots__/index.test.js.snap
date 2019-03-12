@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodosPart matches expected snapshot 1`] = `
+<div>
+  <br />
+  <Segment
+    padded="very"
+    size="mini"
+    textAlign="left"
+  >
+    <Header
+      as="h2"
+      textAlign="center"
+    >
+      Todo list 
+    </Header>
+    <TodoInput />
+    <TodoList
+      activeItem="all"
+      sortByDateAndCompleted={[Function]}
+      todos={Array []}
+    />
+    <Footer
+      handleActiveItemChange={[Function]}
+      todos={Array []}
+    />
+  </Segment>
+</div>
+`;

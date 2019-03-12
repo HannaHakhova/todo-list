@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer matchs expected snapshot 1`] = `
+<Menu
+  pointing={true}
+  secondary={true}
+>
+  <MenuItem
+    active={true}
+    as="label"
+    name="all"
+    onClick={[Function]}
+  >
+    <Icon
+      as="i"
+      name="list layout"
+    />
+     All
+    <Label
+      color="orange"
+    >
+      1
+    </Label>
+  </MenuItem>
+  <MenuItem
+    active={false}
+    as="label"
+    name="completed"
+    onClick={[Function]}
+  >
+    <Icon
+      as="i"
+      name="check"
+    />
+     Completed
+    <Label
+      color="teal"
+    >
+      0
+    </Label>
+  </MenuItem>
+  <MenuItem
+    active={false}
+    as="label"
+    name="pending"
+    onClick={[Function]}
+  >
+    <Icon
+      as="i"
+      name="hourglass end"
+    />
+     Pending
+    <Label
+      color="red"
+    >
+      1
+    </Label>
+  </MenuItem>
+  <MenuItem>
+    <Button
+      as="button"
+      color="teal"
+      onClick={[Function]}
+    >
+      <Icon
+        as="i"
+        name="trash"
+      />
+       Clear completed
+    </Button>
+  </MenuItem>
+</Menu>
+`;

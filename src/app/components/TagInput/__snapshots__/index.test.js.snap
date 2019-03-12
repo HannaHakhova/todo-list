@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagInput matches expected snapshot 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <FormGroup
+    widths="equal"
+  >
+    <FormInput
+      action="Add"
+      as={[Function]}
+      control={[Function]}
+      onChange={[Function]}
+      placeholder="Add tag..."
+      size="large"
+      type="text"
+      value=""
+    />
+  </FormGroup>
+</Form>
+`;

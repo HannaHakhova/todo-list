@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagsPart matches expected snapshot 1`] = `
+<div>
+  <br />
+  <Segment
+    padded="very"
+    size="mini"
+    textAlign="left"
+  >
+    <Header
+      as="h2"
+      textAlign="center"
+    >
+      Tags 
+    </Header>
+    <TagInput />
+    <TagList
+      tags={Array []}
+    />
+  </Segment>
+</div>
+`;

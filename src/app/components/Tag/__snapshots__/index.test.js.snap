@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag matches expected snapshot) 1`] = `
+<div>
+  <Label
+    as="a"
+    color="teal"
+    draggable="true"
+    onDragStart={[Function]}
+    tag={true}
+  >
+     
+    test
+    <LabelDetail />
+    <Icon
+      as="i"
+      name="delete"
+      onClick={[Function]}
+    />
+  </Label>
+</div>
+`;

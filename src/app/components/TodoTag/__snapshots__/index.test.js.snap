@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoTag matches expected snapshot) 1`] = `
+<Label
+  as="a"
+  color="blue"
+  size="tiny"
+  tag={true}
+>
+   
+  test
+  <Icon
+    as="i"
+    name="delete"
+    onClick={[Function]}
+  />
+</Label>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo matches expected snapshot when completed is false)  1`] = `
+<div
+  onDragOver={[Function]}
+  onDrop={[Function]}
+>
+  <div>
+    <ListItem
+      floated="left"
+    >
+      <Checkbox
+        checked={false}
+        label="test"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <Label
+        as="a"
+        onClick={[Function]}
+        size="tiny"
+      >
+        <Icon
+          as="i"
+          name="calendar"
+        />
+        2/1/1900
+      </Label>
+      <Button
+        as="button"
+        floated="right"
+        icon="delete"
+        onClick={[Function]}
+        size="small"
+      />
+    </ListItem>
+  </div>
+  <div>
+    <TodoTagList
+      handleDeleteTodoTag={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Todo matches expected snapshot when completed is true) 1`] = `
+<div
+  onDragOver={[Function]}
+  onDrop={[Function]}
+>
+  <div>
+    <ListItem
+      floated="left"
+    >
+      <Checkbox
+        checked={true}
+        label="test"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <Label
+        as="a"
+        onClick={[Function]}
+        size="tiny"
+      >
+        <Icon
+          as="i"
+          name="calendar"
+        />
+        2/1/1900
+      </Label>
+      <Button
+        as="button"
+        floated="right"
+        icon="delete"
+        onClick={[Function]}
+        size="small"
+      />
+    </ListItem>
+  </div>
+  <div>
+    <TodoTagList
+      handleDeleteTodoTag={[Function]}
+    />
+  </div>
+</div>
+`;

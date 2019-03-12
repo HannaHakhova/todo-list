@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagList component should match expected snapshot 1`] = `
+<List>
+  <Tag
+    handleDelete={[Function]}
+    key="1"
+    tag={
+      Object {
+        "id": "1",
+        "title": "Tag1",
+      }
+    }
+  />
+  <Tag
+    handleDelete={[Function]}
+    key="2"
+    tag={
+      Object {
+        "id": "2",
+        "title": "Tag2",
+      }
+    }
+  />
+  <Tag
+    handleDelete={[Function]}
+    key="3"
+    tag={
+      Object {
+        "id": "3",
+        "title": "Tag3",
+      }
+    }
+  />
+</List>
+`;
